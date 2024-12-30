@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.contact555{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c0bfbfa0;
+    background-size:cover ;
+}
+
+.contact555 .content555{
+    max-width: 800px;
+    text-align: center;
+
+}
+
+.contact555 .content555 h2{
+    font-size: 50px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.contact555 .content555 p{
+    font-weight: 300;
+    color: #030202;
+}
+
+.container555{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px ;
+
+}
+.container555 .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container555 .contactInfo .box555{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+
+.container555 .contactInfo .box555 .icon555{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+
+.container555 .contactInfo .box555 .text555{
+   display: flex;
+   margin-left: 20px;
+   font-size: 16px;
+   color: #000000;
+   flex-direction: column;
+   font-weight: 300;
+
+
+}
+
+
+.container555 .contactInfo .box555 .text555 h3{
+    font-weight: 500;
+    color: #00bcd4;
+
+}
+
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactform .inputbox input,
+.contactform .inputbox input textarea
+{
+width: 100%;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+border: none;
+border-bottom: 2px solid #333;
+outline: none;
+resize: none;
+}
+
+
+.contactform .inputbox span{
+    position:relative ;
+    padding: 5px 0;
+    font-size: 16px; 
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.05;
+    color: #666;
+}
+
+input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    height: 46px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 21px !important;
+}
+
+textarea {
+    border-top: none;
+    /* resize: vertical; */
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    margin-top: 37px;
+}
+.contactform h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.container555 .contactInfo .box555 .text555 h3 {
+    font-weight: 500;
+    color: #000000;
+    font-family: system-ui;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* navber start here  */
+.bg-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+span{
+    color: red;
+}
+.span2{
+    color: red;
+}
+/* bavber end here */
+
+
+/* footer css start */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #111;
+    width: 100%;
+
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i{
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.footerbottom p{
+    color: aliceblue;
+}
+
+
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+}
+
+.footernav{
+    margin:30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li:hover{
+    opacity: 1;
+}
+/* footer css end */

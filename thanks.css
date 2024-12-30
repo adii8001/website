@@ -1,0 +1,153 @@
+
+/* nabar css start */
+span{
+    color: red;
+}
+.span2{
+    color: red;
+}
+/* narbar css end */
+
+/* thanks css start */
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    
+}
+.tittle{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    margin-top: 150px;
+
+}
+
+.tittle:hover{
+    color: #b30a0a;
+}
+
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+.content{
+    flex: 1;
+    margin-left: 20px;
+
+}
+
+.content p{
+    font-size: 17px;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+
+}
+
+.content:hover p{
+    color: #5244a0;
+}
+
+/*  thanks css end */
+
+/* footer css start */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #111;
+    width: 100%;
+
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i{
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.footerbottom p{
+    color: aliceblue;
+}
+
+
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+}
+
+.footernav{
+    margin:30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li{
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li:hover{
+    opacity: 1;
+}
+/* footer css end */
